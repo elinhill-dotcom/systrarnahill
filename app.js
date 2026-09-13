@@ -107,3 +107,5 @@ async function drawWalk(stops,title){
 }
 
 render();
+
+const landing=#landing, appMain=#app-main; function enterApp(){landing.classList.add('landing-hidden'); appMain.classList.remove('app-hidden'); setTimeout(()=>#explore.scrollIntoView({behavior:'smooth',block:'start'}),80);} #enter-app?.addEventListener('click',enterApp); #enter-app-cta?.addEventListener('click',enterApp); #brand-home?.addEventListener('click',()=>{appMain.classList.add('app-hidden');landing.classList.remove('landing-hidden');window.scrollTo({top:0,behavior:'smooth'});});
