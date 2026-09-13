@@ -10,3 +10,5 @@
 .want-actions{display:flex;gap:5px;flex-wrap:wrap;width:100%;margin-bottom:4px}.want-button{font-size:10px!important;padding:6px 8px!important;color:#a92e52}.want-button.wanted{background:#f7c9dc;border-color:#e83e8c;color:#8e174f}
 
 @media(max-width:750px){#categories{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;overflow:visible;padding:10px 5% 14px}#categories button{width:100%;padding:12px 8px;font-size:12px;text-align:center;border-radius:12px}#categories button small{font-size:10px}.section-heading h2{margin-bottom:2px}.section-heading .eyebrow{margin-bottom:5px}}
+
+.app-hidden{display:block!important}.landing-cta{display:inline-block;text-decoration:none}
